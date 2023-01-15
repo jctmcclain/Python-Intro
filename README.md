@@ -1,4 +1,4 @@
-# Python 
+# Introduction to Python Scripts
 
 ### What's your name
 --------------------------------------------
