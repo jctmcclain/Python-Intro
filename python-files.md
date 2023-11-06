@@ -1,5 +1,5 @@
 ## Opening and Reading 
-
+-----
 ```python 
 print('open a text file')
 filename = 'mytext.txt'
@@ -20,7 +20,7 @@ for line in contents;
 ```
 
 ## Read vs. Readline
-
+-----
 ```python
 f = open('files.txt')
 contents = f.read()
@@ -34,4 +34,35 @@ for line in f.readline():
 	cool_list.append = line
 print(cool_list[0])
 
+```
+## Readline 
+-----
+```python
+mylist = []
+myfile = open("files.txt","r")
+myline = myfile.readline()
+while myline:
+# Stripping whitespace 
+# left and right strip whitepace
+    # myline = myline.strip()
+# left strip whitepace
+    myline = myline.lstrip()
+# right strip whitepace
+    myline = myline.rstrip()
+    mylist.append(myline)
+    print(myline)
+    myline=myfile.readline()
+    
+myfile.close
+print(" ---------- ") 
+
+print(mylist)
+print("Split the list apart\n")
+print(" ---------- ")
+i = 0
+for var in mylist:
+    print('Index >> {} >> {}'.format(i, var))
+    i = i + 1
+
+print(" ---------- ")
 ```
