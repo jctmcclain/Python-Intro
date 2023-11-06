@@ -27,7 +27,7 @@ contents = f.read()
 f.close 
 print(contents)
 
-# VS>
+# VS
 cool_list = []
 f = open('files.txt')
 for line in f.readline(): 
