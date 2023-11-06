@@ -1,2 +1,2 @@
-* [python-intro](Python Introduction)
-* [python-files](Python Files)
+* [Python Introduction](python-intro)
+* [Python Files](python-files)
