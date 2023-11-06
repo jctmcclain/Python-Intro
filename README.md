@@ -35,8 +35,8 @@ for x in range(1,8):
 t.reset()
 ```	
 #### Hexagon Simplified 
-```python
 ----------------------
+```python
 import turtle
 t = turtle.Pen()
 for x in range(6):
@@ -45,7 +45,8 @@ for x in range(6):
 ```
 	
 --------------------------------------------
-Something Cool
+#### Something Cool
+```python
 import turtle
 t = turtle.Pen()
 c = ["red","yellow","blue", "green"]
@@ -53,8 +54,10 @@ for x in range(100):
 	t.pencolor(c[x%4])
 	t.forward(x)
 	t.left(91)
-	
-Something Cooler
+```
+----------------------	
+#### Something Cooler
+```python
 import turtle
 turtle.bgcolor("black")
 t = turtle.Pen()
@@ -63,6 +66,7 @@ for x in range(100):
 	t.pencolor(c[x%4])
 	t.forward(x)
 	t.left(91)
-	
+```
+----------------------
 
 	
