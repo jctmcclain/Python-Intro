@@ -77,3 +77,34 @@ for var in mylist:
 
 print(" ---------- ")
 ```
+
+## Handling Encoding
+---
+```python
+mylist = []
+filename = "jabberwocky.txt"
+
+with open(filename,'r',encoding='UTF-8') as myfile:
+# myline 
+    while myline := myfile.readline():
+        myline = myline.rstrip()
+        myline = myline.lstrip()
+        mylist.append(myline)
+        print(myline)
+        myline=myfile.readline()
+    
+myfile.close
+print(" ---------- ") 
+
+print(mylist)
+print("Split the list apart\n")
+print(" ---------- ")
+i = 0
+for var in mylist:
+    print('Index >> {} >> {}'.format(i, var))
+    i = i + 1
+
+print(" ---------- ") 
+
+```
+
