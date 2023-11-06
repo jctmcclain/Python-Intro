@@ -1,2 +1,2 @@
-* [Python Introduction](../python-intro.md)
-* [Python Files](../python-files,md)
+* [Python Introduction](../blob/master/python-intro.md)
+* [Python Files](../blob/master/python-files,md)
