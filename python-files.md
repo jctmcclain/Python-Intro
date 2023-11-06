@@ -87,8 +87,12 @@ filename = "jabberwocky.txt"
 with open(filename,'r',encoding='UTF-8') as myfile:
 # myline 
     while myline := myfile.readline():
+# Remove whitespace from the right
         myline = myline.rstrip()
+# Remove whitespace from the left
         myline = myline.lstrip()
+# Remove whitespace from right and left
+#       myline = myline.strip()
         mylist.append(myline)
         print(myline)
         myline=myfile.readline()
