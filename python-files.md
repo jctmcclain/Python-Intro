@@ -35,6 +35,17 @@ for line in f.readline():
 print(cool_list[0])
 
 ```
+## Access Mode 
+------
+
+| Mode | Mode Description | 
+| ----- | ------------------ | 
+| r         | read                        | 
+| w        | write                       |                      
+| a         | appending             | 
+
+
+
 ## Readline 
 -----
 ```python
