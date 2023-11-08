@@ -1,0 +1,8 @@
+"1000":"John Doe"
+"1001":"Bugs Bunny"
+"1002":"Daffy Duck"
+"1003":"Marvin the Maritian"
+"1004":"Elmer Fudd"
+"1005":"Yosemite Sam"
+"1006":"Porky Pig"
+"1007":"Foghorn Leghorn"
