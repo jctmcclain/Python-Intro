@@ -111,4 +111,76 @@ for var in mylist:
 print(" ---------- ") 
 
 ```
+## Writing Files
+```python
+# Writes the lyrics of the Fast Food Song
+# You may not be the same after this video:
+# https://youtu.be/rOC9d17vASc?si=lZ01KjDu7YHvOw-E
 
+def do_lyric(var):
+    print("Writing a {} to the file...\n".format(var))
+    return("{} \n".format(var))
+
+f = open('write_filename.txt','a',encoding='UTF-8')
+for i in range(2):
+    f.write(do_lyric('The Pizza Hut'))
+mystring = 'Kentucky Fried Chicken'
+f.write(do_lyric(mystring))
+mystring = 'The Pizza Hut'
+f.write(do_lyric(mystring))
+mystring = 'McDonald\'s'
+f.write(do_lyric(mystring))
+f.write("--------\n")
+f.close()
+```
+### HTML Converter
+
+```python
+# Uses the userdata.txt file
+# (filename,'r',encoding='UTF-8')
+with open('userdata.txt', 'r') as fin:
+    lines = fin.readlines()
+    my_dictionary = {}
+    for line in lines:
+        key, value = line.split(':')
+
+        key = key.replace('"','')
+        value = value.replace('"','')
+
+        key = key.strip()
+        value = value.strip()
+
+        my_dictionary[key] = value
+fin.close()
+
+#print the dictionary 
+print('Show the dictionary')
+print('-------------------------')
+print(my_dictionary)
+print('-------------------------')
+
+# Write out the webpage
+fout = open('coolwebpage.html','w',encoding='UTF-8')
+fout.write('<html>')
+fout.write('<head>')
+fout.write('<title>Cool Web Page</title>')
+fout.write('<style type="text/css">')
+fout.write('th {font-weight:bold;font-family:helvetica;}')
+fout.write('td {font-family:helvetica;}')
+fout.write('</style>')
+fout.write('</head>')
+fout.write('<body>')
+fout.write('<table cellpadding="10" cellspacing="10">')
+fout.write('<thead>')
+fout.write('<tr><th>User ID</th><th>Username</th></tr>')
+fout.write('</thead>')
+
+fout.write('<tbody>')
+for k, v in my_dictionary.items():
+    fout.write('<tr><td>{}</td><td>{}</td></tr>'.format(k,v))
+fout.write('</tbody>')
+fout.write('</table>')
+fout.write('</body></html>')
+fout.close()
+
+```
