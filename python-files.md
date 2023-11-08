@@ -78,12 +78,12 @@ for var in mylist:
 print(" ---------- ")
 ```
 
-## Handling Encoding
+## Handling File Encoding
 ---
 ```python
 mylist = []
 filename = "jabberwocky.txt"
-
+# Suggest using UTF-8 encoding 
 with open(filename,'r',encoding='UTF-8') as myfile:
 # myline 
     while myline := myfile.readline():
