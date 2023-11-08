@@ -160,6 +160,7 @@ print(my_dictionary)
 print('-------------------------')
 
 # Write out the webpage
+# Reference:  template.html included in the root directory of the files (on left).
 fout = open('coolwebpage.html','w',encoding='UTF-8')
 fout.write('<html>')
 fout.write('<head>')
