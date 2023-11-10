@@ -1,6 +1,6 @@
 # Vocabulary 
 
-| Getting Started     |             |
+## git beginnings
 | Local Machine       | From Remote | 
 | ------------------- | ----------- | 
 | git init            | git clone   |
