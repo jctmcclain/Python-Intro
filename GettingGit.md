@@ -1,14 +1,20 @@
 # Vocabulary 
-* init
-* add
-* commit
-* merge
-* branch
-* push
-* pull
-* clone
 
-# Getting Started Local Machine 
+| Getting Started     |             |
+| Local Machine       | From Remote | 
+| ------------------- | ----------- | 
+| git init            | git clone   |
+| create a local repo | retrieves code from remote machine |
+
+
+* add - add files to repo
+* commit - bundle up the files and approve
+* branch - creates a branch of the codebase to enable modifications
+* merge - merges one or more branche back together in named branch
+* pull - retrieves code from remote machine to local machine 
+* push - sends code from local machine to remote machine
+
+# Local Machine Only
 ```shell
 mkdir CodeBase
 cd CodeBase
@@ -20,7 +26,7 @@ git add .
 git commit -m "First add of files"
 ```
   
-# From Remote 
+# Connecting to Remote Repository
 
 ## Setup a directory to download files (pull)
 
