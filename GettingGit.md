@@ -1,5 +1,12 @@
 # Vocabulary 
-* add vocab
+* init
+* add
+* commit
+* merge
+* branch
+* push
+* pull
+* clone
 
 # Getting Started 
 * local starte
