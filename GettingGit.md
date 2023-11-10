@@ -8,8 +8,17 @@
 * pull
 * clone
 
-# Getting Started 
-* local starte
+# Getting Started Local Machine 
+```shell
+mkdir CodeBase
+cd CodeBase
+git init
+```
+* add a few files
+```shell
+git add .
+git commit -m "First add of files"
+```
   
 # From Remote 
 * remote pull
