@@ -1,7 +1,9 @@
 # SQL Start 
 
+## CREATE
 
-* CREATE
-* SELECT
-* INSERT
-* UPDATE
+## SELECT
+
+## INSERT
+  
+## UPDATE
