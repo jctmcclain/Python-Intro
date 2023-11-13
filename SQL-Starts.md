@@ -19,11 +19,9 @@ create sequence {TABLENAME}_sequence start 1;
 ```
 
 ## SELECT (R - Review)
-```sql
-/* {} - insert your parameters */
-```
 ### All records
 ```sql
+/* {} - insert your parameters */
 select * from {TABLENAME};
 ```
 ### Only certain records
