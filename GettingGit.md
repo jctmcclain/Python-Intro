@@ -34,6 +34,14 @@ git commit -m "First add of files"
 cd Desktop
 mkdir RemoteCode
 cd RemoteCode
+```
+## Verify your directory
+### Windows 
+```shell
+cd
+```
+### Apple or Unix 
+```shell
 pwd
 ```
 
@@ -44,7 +52,7 @@ git clone https://github.com/jctmcclain/Python-Intro
 
 ## check to see that the Python-Intro directory was downloaded
 
-### Apple
+### Apple or Unix
 ```shell
 ls 
 ```
@@ -61,7 +69,7 @@ cd Python-Intro
 
 ## View the files
 
-### Apple
+### Apple or Unix
 ```shell
 ls 
 ```
