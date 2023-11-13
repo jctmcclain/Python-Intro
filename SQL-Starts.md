@@ -21,19 +21,30 @@ create sequence {TABLENAME}_sequence start 1;
 ## SELECT (R - Review)
 ```sql
 /* {} - insert your parameters */
-
+```
+### All records
+```sql
+select * from {TABLENAME};
+```
+### Only certain records
+select {YOUR_COLUMN},{YOUR_COLUMN},{YOUR_COLUMN} from {TABLENAME};
 
 ```
+
+
 ## INSERT (U - Update) 
 ```sql
 /* {} - insert your parameters */
-
+insert into {TABLENAME}({YOUR_COLUMN},{YOUR_COLUMN},{YOUR_COLUMN}) VALUES('YOUR_NEW_DATA','YOUR_NEW_DATA','YOUR_NEW_DATA');
 
 ```
 ## UPDATE (U - Update) 
 ```sql
 /* {} - insert your parameters */
 
+update {TABLENAME}
+set {YOUR_COLUMN} = 'YOUR_NEW_DATA'
+where id = {REFERENCE_ID};
 
 ```
 
@@ -41,5 +52,6 @@ create sequence {TABLENAME}_sequence start 1;
 ```sql
 /* {} - insert your parameters */
 
-
+delete from  {TABLENAME}
+where id = {REFERENCE_ID};
 ```
