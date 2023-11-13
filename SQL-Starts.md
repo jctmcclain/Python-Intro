@@ -16,8 +16,8 @@ create table {TABLENAME}(id integer primary key,
 {YOUR_COLUMN} {COLUMN_TYPE},
 {YOUR_COLUMN} {COLUMN_TYPE});
 create sequence {TABLENAME}_sequence start 1;
-
 ```
+
 ## SELECT (R - Review)
 ```sql
 /* {} - insert your parameters */
@@ -27,17 +27,16 @@ create sequence {TABLENAME}_sequence start 1;
 select * from {TABLENAME};
 ```
 ### Only certain records
+```sql
 select {YOUR_COLUMN},{YOUR_COLUMN},{YOUR_COLUMN} from {TABLENAME};
-
 ```
-
 
 ## INSERT (U - Update) 
 ```sql
 /* {} - insert your parameters */
 insert into {TABLENAME}({YOUR_COLUMN},{YOUR_COLUMN},{YOUR_COLUMN}) VALUES('YOUR_NEW_DATA','YOUR_NEW_DATA','YOUR_NEW_DATA');
-
 ```
+
 ## UPDATE (U - Update) 
 ```sql
 /* {} - insert your parameters */
@@ -45,7 +44,6 @@ insert into {TABLENAME}({YOUR_COLUMN},{YOUR_COLUMN},{YOUR_COLUMN}) VALUES('YOUR_
 update {TABLENAME}
 set {YOUR_COLUMN} = 'YOUR_NEW_DATA'
 where id = {REFERENCE_ID};
-
 ```
 
 ## DELETE (D - Delete) 
