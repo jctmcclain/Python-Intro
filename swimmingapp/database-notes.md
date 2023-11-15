@@ -41,11 +41,12 @@ FOREIGN KEY (m_id) references meets(m_id),
 FOREIGN KEY (e_id) references events(e_id),
 );
 create sequence sstatid start 1; 
+```
+# Inserting Data
 
-
+```sql
+/* Swimmers Table */
 insert into swimmers values(nextval('swimmerid'),'Betty','Backstroker','FR','Huntingdon,PA','Huntingdon Area','betty@swim.cc','women');
-
-
 
 ```
 # Joining tables 
