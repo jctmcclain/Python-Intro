@@ -8,3 +8,13 @@
 
 ----
 * [Git - Software Code Management Tool](https://github.com/jctmcclain/Python-Intro/blob/main/GIT/GettingGit.md)
+
+
+## Database Tools 
+* [DuckDB](https://duckdb.org/)
+* [SQLite](https://www.sqlite.org/i)
+* [DBeaver](https://dbeaver.io/)
+
+### Database Specific
+* [MySQL Browswer](https://www.mysql.com/products/workbench/)
+* [PgAdmin](https://www.pgadmin.org/)
