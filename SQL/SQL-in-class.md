@@ -1,4 +1,7 @@
-# In class example
+# In class example(s)
+
+## November 17, 2023 
+
 ```python 
 import duckdb
 con = duckdb.connect('music.db')
