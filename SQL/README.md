@@ -16,5 +16,5 @@
 * [DBeaver](https://dbeaver.io/)
 
 ### Database Specific
-* [MySQL Browswer](https://www.mysql.com/products/workbench/)
+* [MySQL Browser](https://www.mysql.com/products/workbench/)
 * [PgAdmin](https://www.pgadmin.org/)
