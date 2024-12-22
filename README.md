@@ -6,3 +6,5 @@
 
 ----
 * [Git - Software Code Management Tool](https://github.com/jctmcclain/Python-Intro/blob/main/GIT/GettingGit.md)
+
+#### Associated with a Course - CS110
